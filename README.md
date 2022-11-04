@@ -10,13 +10,13 @@ Add [Notyf](https://github.com/caroso1222/notyf) support in your Laravel app.
 You can install the package via composer
 
 ```shell
-composer require kapouet/laravel-notyf
+composer require VinceGee/laravel-notyf
 ```
 
 You can publish the config file with:
 
 ```shell
-php artisan vendor:publish --provider="Kapouet\Notyf\NotyfServiceProvider" --tag="kapouet:config"
+php artisan vendor:publish --provider="VinceGee\Notyf\NotyfServiceProvider" --tag="kapouet:config"
 ```
 
 The config file is structured like Notyf, but in PHP, see https://github.com/caroso1222/notyf#api
